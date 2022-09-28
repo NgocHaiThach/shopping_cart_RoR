@@ -4,6 +4,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
+gem 'bcrypt', '~> 3.1.7'
+gem 'bootstrap-sass',  '~> 3.4.1'
+gem 'bootstrap-will_paginate', '~> 1.0.0'
+gem "font-awesome-sass", "~> 6.2.0"
 gem 'rails', '~> 6.1.7'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
